@@ -9,8 +9,7 @@ spec:
   ingressClassName: nginx
 
   rules:
-    - host: your-domain.com
-      http:
+     - http:
         paths:
           - path: /
             pathType: Prefix
